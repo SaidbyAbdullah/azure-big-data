@@ -1,7 +1,7 @@
 ﻿# Project Overview
 This is is a **Big Data** Engineering Project on Azure. Data is ingested from 2 data sources (PostgreSQL and Blob Storage) and ingested into the Data Lake in Azure. In the Data Lake, after a couple of data transformation and Machine Learning Model running, I made the Machine Learning result back to the Data Lake. Then I used Azure Synapse connected to the DataLake and generated a report from the Synapse.
 # Project Architecture Diagram
-
+![architecture](overview.png)
 # Project Steps
 ### 1- Data Ingestion:
 In this part, I have 2 data sources to connect, the Postgres database and the Azure blob container. I used Azure Data Factory connect to those.
